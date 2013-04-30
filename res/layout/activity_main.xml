@@ -1,0 +1,153 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView
+        android:id="@+id/explanation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/explanation" />
+<!-- Q1 -->
+    <TextView
+        android:id="@+id/q1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/explanation"
+        android:text="@string/q1" />    
+    
+    <EditText
+        android:id="@+id/q1EnterText"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/q1"
+        android:ems="10"
+        android:inputType="textNoSuggestions" >
+
+        <requestFocus />
+    </EditText>
+<!-- Q2 -->
+    <TextView
+        android:id="@+id/q2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/explanation"
+        android:text="@string/q2" />    
+    
+    <EditText
+        android:id="@+id/q2EnterText"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/q2"
+        android:ems="10"
+        android:inputType="textNoSuggestions" >
+
+    </EditText>
+<!-- Midterm Exam -->    
+    <TextView
+        android:id="@+id/midterm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/explanation"
+        android:text="@string/midterm" />    
+    
+    <EditText
+        android:id="@+id/midtermEnterText"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/midterm"
+        android:ems="10"
+        android:inputType="textNoSuggestions" >
+
+    </EditText>
+<!-- Q3 -->
+    <TextView
+        android:id="@+id/q3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/q1EnterText"
+        android:text="@string/q3" />    
+    
+    <EditText
+        android:id="@+id/q3EnterText"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/q3"
+        android:ems="10"
+        android:inputType="textNoSuggestions" >
+
+    </EditText>
+<!-- Q4 -->    
+    <TextView
+        android:id="@+id/q4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/q2EnterText"
+        android:text="@string/q4" />    
+    
+    <EditText
+        android:id="@+id/q4EnterText"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/q4"
+        android:ems="10"
+        android:inputType="textNoSuggestions" >
+
+    </EditText>    
+<!-- Final Exam -->    
+    <TextView
+        android:id="@+id/fin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/midtermEnterText"
+        android:text="@string/fin" />    
+    
+    <EditText
+        android:id="@+id/finEnterText"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/fin"
+        android:ems="10"
+        android:inputType="textNoSuggestions" >
+
+    </EditText>
+    
+<!-- Results -->
+        <Button
+            android:id="@+id/calcButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/finEnterText"
+            android:text="@string/calcButton"
+            android:onClick="calculateFinalGrade" />
+
+        <TextView
+        android:id="@+id/resultsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calcButton"
+        android:text="@string/resultsText" />
+        
+<!-- Credits -->   
+        <TextView
+            android:id="@+id/credits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+            android:text="@string/credits" />
+        
+</RelativeLayout>

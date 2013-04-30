@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FinalGrade</string>
+    <string name="explanation">Enter in your letter grades (A, B, C, D, or E) for each of the specified quarters and exams. Case does not matter.</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+        <string name="q1">Quarter 1</string>
+        <string name="q2">Quarter 2</string>
+        <string name="midterm">Midterm Exam</string>
+        <string name="q3">Quarter 3</string>
+        <string name="q4">Quarter 4</string>
+        <string name="fin">Final Exam</string>
+        <string name="calcButton">Calculate Final Grade</string>
+        <string name="resultsText">Final Grade: </string>
+        <string name="credits">You can find the full source code for FinalGrade <a href="https://github.com/fedarko/FinalGrade">on GitHub</a>. FinalGrade is licensed under the GNU GPL Version 3.</string>
+</resources>
