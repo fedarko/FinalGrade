@@ -1,7 +1,7 @@
 +---------------------+
 | README - FinalGrade |
 +---------------------+
-FinalGrade is an Android Application licensed under the GPL. It
+FinalGrade is an Android (TM) Application licensed under the GPL. It
 calculates final grades in courses based on quarter and exam grades,
 and is designed to work with grades in the Howard County Public School
 System (HCPSS).
