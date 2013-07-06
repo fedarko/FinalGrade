@@ -1,4 +1,5 @@
-<!--  Copyright 2013 Marcus Fedarko
+<!--
+  Copyright 2013 Marcus Fedarko
 Contact Email: marcus.fedarko@gmail.com
 
 This file is part of FinalGrade.
@@ -15,12 +16,6 @@ This file is part of FinalGrade.
 
   You should have received a copy of the GNU General Public License
   along with FinalGrade.  If not, see <http://www.gnu.org/licenses/>. -->
-  
-<menu xmlns:android="http://schemas.android.com/apk/res/android">  
-    <item android:id="@+id/menu_about"
-        android:title="@string/menu_about"
-        android:orderInCategory="1"
-        android:showAsAction="never"
-        android:icon="@android:drawable/ic_menu_info_details" />
-    
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
 </menu>

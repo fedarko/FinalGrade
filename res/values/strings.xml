@@ -1,4 +1,6 @@
-<!--  Copyright 2013 Marcus Fedarko
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2013 Marcus Fedarko
 Contact Email: marcus.fedarko@gmail.com
 
 This file is part of FinalGrade.
@@ -14,20 +16,36 @@ This file is part of FinalGrade.
   GNU General Public License for more details.
 
   You should have received a copy of the GNU General Public License
-  along with FinalGrade.  If not, see <http://www.gnu.org/licenses/>. -->
+  along with FinalGrade.  If not, see <http://www.gnu.org/licenses/>.
+-->
 
 <resources>
+
     <string name="app_name">FinalGrade</string>
     <string name="explanation">Enter in your letter grades (A, B, C, D, or E) for each of the specified quarters and exams. Case does not matter.</string>
-    <string name="menu_settings">Settings</string>
-    <string name="title_activity_main">MainActivity</string>
-        <string name="q1">Quarter 1</string>
-        <string name="q2">Quarter 2</string>
-        <string name="midterm">Midterm Exam</string>
-        <string name="q3">Quarter 3</string>
-        <string name="q4">Quarter 4</string>
-        <string name="fin">Final Exam</string>
-        <string name="calcButton">Calculate Final Grade</string>
-        <string name="resultsText">Final Grade: </string>
-        <string name="credits">You can find the full source code for FinalGrade <a href="https://github.com/fedarko/FinalGrade">on GitHub</a>. FinalGrade is licensed under the GNU GPL Version 3.</string>
+    <string name="title_activity_main">FinalGrade</string>
+    <string name="q1">Quarter 1</string>
+    <string name="q2">Quarter 2</string>
+    <string name="midterm">Midterm Exam</string>
+    <string name="q3">Quarter 3</string>
+    <string name="q4">Quarter 4</string>
+    <string name="fin">Final Exam</string>
+    <string name="calcButton">Calculate Final Grade</string>
+    <string name="resultsText">Final Grade: </string>
+    <string name="courseLen">Course Length:</string>
+    <string name="year">Year-Long</string>
+    <string name="semester">Semester</string>
+    
+    <string name="menu_about">About</string>
+    <string name="about_title">About</string>
+    <string name="disclaimer_title">Grading Systems Disclaimer</string>
+    <string name="hcpssDisclaimer">\tThis app is designed to work with grades in the Howard County Public School System (HCPSS). If your school/district uses a different grading system, the grade calculated in this application may not be accurate.</string>
+   	<string name="howCalculations_title">How HCPSS Grades are Calculated</string>
+   	<string name="howCalculations">\tThe quality point ranges for grades in the HCPSS are:\nA = 3.5 &#8211; 4.00\nB = 2.5 &#8211; 3.49\nC = 1.5 &#8211; 2.49\nD = .75 &#8211; 1.49\nE = Below .75</string>
+    <string name="credits">\tFinalGrade is licensed under the GNU GPL Version 3, which means that you can modify and redistribute its source code as you see fit. You can find the full source code for FinalGrade here:\n\n\t<a href="https://github.com/fedarko/FinalGrade">https://github.com/fedarko/FinalGrade</a>\n\n\tYou can find a full copy of the GNU General Public License Version 3 included in the source code root directory as COPYING.txt, and you can also find a copy at:\n\n\t<a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a></string>
+    <string name="credits_title">Source Code</string>
+    <string name="title_activity_about">FinalGrade</string>
+    <string name="authorinfo_title">About the Author</string>
+	<string name="authorinfo">\t<b>FinalGrade</b> was designed and programmed by Marcus Fedarko. Marcus is currently a student at Long Reach High School in Columbia, Maryland. He is also the author of M-Physics, an Android app designed to teach physics. You can find M-Physics on Google Play here:</string>
+	<string name="m_physics_button">M-Physics</string>
 </resources>
