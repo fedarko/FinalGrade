@@ -1,8 +1,8 @@
 +---------------------+
 | README - FinalGrade |
 +---------------------+
-FinalGrade is an Android (TM) Application licensed under the GPL. It
-calculates final grades in courses based on quarter and exam grades,
+FinalGrade is an Android Application licensed under the GNU GPL version 3.0. It
+calculates final grades in high school courses based on quarter and exam grades,
 and is designed to work with grades in the Howard County Public School
 System (HCPSS).
 It was programmed and designed by Marcus Fedarko.
