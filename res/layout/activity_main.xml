@@ -1,4 +1,4 @@
-<!--  Copyright 2013 Marcus Fedarko
+<!--  Copyright 2013, 2014 Marcus Fedarko
 Contact Email: marcus.fedarko@gmail.com
 
 This file is part of FinalGrade.
@@ -45,8 +45,9 @@ This file is part of FinalGrade.
 	        android:layout_width="50dp"
 	        android:layout_height="wrap_content"
 	        android:layout_below="@+id/q1"
+	        android:maxLength="1"
 	        android:ems="10"
-	        android:inputType="textNoSuggestions" >
+	        android:inputType="textNoSuggestions|textVisiblePassword" >
 	
 	        <requestFocus />
 	    </EditText>
@@ -65,8 +66,9 @@ This file is part of FinalGrade.
 	        android:layout_height="wrap_content"
 	        android:layout_centerHorizontal="true"
 	        android:layout_below="@+id/q2"
+	        android:maxLength="1"
 	        android:ems="10"
-	        android:inputType="textNoSuggestions" >
+	        android:inputType="textNoSuggestions|textVisiblePassword" >
 	
 	    </EditText>
 	<!-- Midterm Exam -->    
@@ -84,8 +86,9 @@ This file is part of FinalGrade.
 	        android:layout_height="wrap_content"
 	        android:layout_alignParentRight="true"
 	        android:layout_below="@+id/midterm"
+	        android:maxLength="1"
 	        android:ems="10"
-	        android:inputType="textNoSuggestions" >
+	        android:inputType="textNoSuggestions|textVisiblePassword" >
 	
 	    </EditText>
 	<!-- Q3 -->
@@ -103,8 +106,9 @@ This file is part of FinalGrade.
 	        android:layout_height="wrap_content"
 	        android:layout_alignParentLeft="true"
 	        android:layout_below="@+id/q3"
+	        android:maxLength="1"
 	        android:ems="10"
-	        android:inputType="textNoSuggestions" >
+	        android:inputType="textNoSuggestions|textVisiblePassword" >
 	
 	    </EditText>
 	<!-- Q4 -->    
@@ -122,8 +126,9 @@ This file is part of FinalGrade.
 	        android:layout_height="wrap_content"
 	        android:layout_centerHorizontal="true"
 	        android:layout_below="@+id/q4"
+	        android:maxLength="1"
 	        android:ems="10"
-	        android:inputType="textNoSuggestions" >
+	        android:inputType="textNoSuggestions|textVisiblePassword" >
 	
 	    </EditText>    
 	<!-- Final Exam -->    
@@ -141,8 +146,9 @@ This file is part of FinalGrade.
 	        android:layout_height="wrap_content"
 	        android:layout_alignParentRight="true"
 	        android:layout_below="@+id/fin"
+	        android:maxLength="1"
 	        android:ems="10"
-	        android:inputType="textNoSuggestions" >
+	        android:inputType="textNoSuggestions|textVisiblePassword" >
 	
 	    </EditText>
 	

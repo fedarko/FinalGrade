@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  Copyright 2013 Marcus Fedarko
+  Copyright 2013, 2014 Marcus Fedarko
 Contact Email: marcus.fedarko@gmail.com
 
 This file is part of FinalGrade.
@@ -37,7 +37,8 @@ This file is part of FinalGrade.
     <string name="semester">Semester</string>
     
     <string name="menu_about">About</string>
-    <string name="about_title">About</string>
+    <string name="about_title">About FinalGrade</string>
+    <string name="about_version">Version 1.3 &#8211; June 20, 2014</string>
     <string name="disclaimer_title">Grading Systems Disclaimer</string>
     <string name="hcpssDisclaimer">\tThis app is designed to work with grades in the Howard County Public School System (HCPSS). If your school/district uses a different grading system, the grade calculated in this application may not be accurate.</string>
    	<string name="howCalculations_title">How HCPSS Grades are Calculated</string>
@@ -46,6 +47,6 @@ This file is part of FinalGrade.
     <string name="credits_title">Source Code</string>
     <string name="title_activity_about">FinalGrade</string>
     <string name="authorinfo_title">About the Author</string>
-	<string name="authorinfo">\t<b>FinalGrade</b> was designed and programmed by Marcus Fedarko. Marcus is currently a student at Long Reach High School in Columbia, Maryland. He is also the author of M-Physics, an Android app designed to teach physics. You can find M-Physics on Google Play here:</string>
-	<string name="m_physics_button">M-Physics</string>
+	<string name="authorinfo">\t<b>FinalGrade</b> was created by Marcus Fedarko. If you have any questions, comments, concerns, or anything else, feel free to contact him at mfedarko.apps@gmail.com.\n\n\tYou can check out Marcus\' other apps on the Google Play store here:</string>
+	<string name="other_apps_button">Other Apps</string>
 </resources>

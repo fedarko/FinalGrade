@@ -1,4 +1,4 @@
-<!--  Copyright 2013 Marcus Fedarko
+<!--  Copyright 2013, 2014 Marcus Fedarko
 Contact Email: marcus.fedarko@gmail.com
 
 This file is part of FinalGrade.
@@ -30,14 +30,22 @@ This file is part of FinalGrade.
 	        android:layout_centerHorizontal="true"
 	        android:text="@string/about_title"
 		    android:textAppearance="?android:attr/textAppearanceLarge" /> 
+	    
+	    <TextView
+	        android:id="@+id/about_version"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/about_title"
+	        android:layout_centerHorizontal="true"
+	        android:text="@string/about_version" />
 		       
 	    <TextView
 	        android:id="@+id/howCalculations_title"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
 	        android:layout_centerHorizontal="true"
-	        android:layout_below="@+id/about_title"
-	        android:layout_marginTop="10dp"
+	        android:layout_below="@+id/about_version"
+	        android:layout_marginTop="15dp"
 	        android:text="@string/howCalculations_title"
 		    android:textAppearance="?android:attr/textAppearanceMedium" />        
 	    
@@ -101,7 +109,8 @@ This file is part of FinalGrade.
 	    	android:layout_height="wrap_content"
 	    	android:layout_centerHorizontal="true"
 	    	android:layout_below="@+id/authorinfo_title"
-	    	android:text="@string/authorinfo" />
+	    	android:text="@string/authorinfo"
+	        android:autoLink="email" />
 	    
 	   	<Button
 	        android:id="@+id/m_physics_button"
@@ -109,8 +118,8 @@ This file is part of FinalGrade.
 	    	android:layout_height="wrap_content"
 	    	android:layout_centerHorizontal="true"
 	    	android:layout_below="@+id/authorinfo"
-	    	android:text="@string/m_physics_button"
-	    	android:onClick="open_m_physics" />
+	    	android:text="@string/other_apps_button"
+	    	android:onClick="open_other_apps" />
 	    
 	</RelativeLayout>
 </ScrollView>

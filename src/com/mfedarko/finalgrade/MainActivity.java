@@ -1,4 +1,4 @@
-/* Copyright 2013 Marcus Fedarko
+/* Copyright 2013, 2014 Marcus Fedarko
  * Contact Email: marcus.fedarko@gmail.com
  * 
  * This file is part of FinalGrade.

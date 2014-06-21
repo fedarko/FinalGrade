@@ -1,4 +1,4 @@
-/* Copyright 2013 Marcus Fedarko
+/* Copyright 2013, 2014 Marcus Fedarko
  * Contact Email: marcus.fedarko@gmail.com
  * 
  * This file is part of FinalGrade.
@@ -39,14 +39,16 @@ public class AboutActivity extends Activity {
         credits.setMovementMethod(LinkMovementMethod.getInstance());
 	}
 
-	public void open_m_physics(View view) {
+	public void open_other_apps(View view) {
+		/* Called when the user presses the "Other Apps" button. */
+		
 		Intent i = new Intent(Intent.ACTION_VIEW);
 		try {
-			i.setData(Uri.parse("market://details?id=com.mfedarko.m_physics"));
+			i.setData(Uri.parse("market://search?q=pub:Marcus Fedarko"));
 			startActivity(i);
 		} catch (android.content.ActivityNotFoundException e) {
-			// If Google Play isn't installed on the device, just open M-Physics in the browser
-			i.setData(Uri.parse("http://play.google.com/store/apps/details?id=com.mfedarko.m_physics"));
+			// If Google Play isn't installed on the device, just open the Google Play query in the browser
+			i.setData(Uri.parse("http://play.google.com/store/search?q=pub:Marcus Fedarko"));
 			startActivity(i);
 		}
 	}
