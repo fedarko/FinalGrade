@@ -10,6 +10,6 @@ It was programmed and designed by Marcus Fedarko.
 The Google Play page for FinalGrade can be found [here](http://play.google.com/store/apps/details?id=com.mfedarko.finalgrade).
 
 If you have any comments, criticisms, bugs to report, etc., please
-email me at marcus.fedarko@gmail.com.
+email me at mfedarko.apps@gmail.com.
 
 Thanks!
